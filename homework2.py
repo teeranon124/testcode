@@ -26,7 +26,3 @@ class TestAlternatingCharacters(unittest.TestCase):
             ),
             660,
         )  # test 4 in hackerrank
-
-
-if __name__ == "__main__":
-    unittest.main()

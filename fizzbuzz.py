@@ -28,7 +28,3 @@ class TestFizzBuzz(unittest.TestCase):
     def test_number(self):
         self.assertEqual(fizzbuzz(2), "2")  # 2 ไม่หาร 3 หรือ 5 ลงตัว
         self.assertEqual(fizzbuzz(7), "7")  # 7 ไม่หาร 3 หรือ 5 ลงตัว
-
-
-if __name__ == "__main__":
-    unittest.main()

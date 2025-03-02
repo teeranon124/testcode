@@ -27,7 +27,3 @@ class TestCatAndMouse(unittest.TestCase):
         self.assertEqual(
             cat_and_mouse(5, 5, 5), "Mouse C"
         )  # Cat กับ Mouse อยู่ตำแหน่งเดียวกัน
-
-
-if __name__ == "__main__":
-    unittest.main()

@@ -41,7 +41,3 @@ class TestCaesarCipher(unittest.TestCase):
             caesarCipher("The quick brown fox jumps over the lazy dog", 7),
             "Aol xbpjr iyvdu mve qbtwz vcly aol shgf kvn",
         )  # เลื่อน 7 ตำแหน่ง
-
-
-if __name__ == "__main__":
-    unittest.main()

@@ -38,7 +38,3 @@ class TestAlternate(unittest.TestCase):
         self.assertEqual(alternate("xxyyzz"), 0)  # สลับไม่ได้
         self.assertEqual(alternate("a"), 0)  # สลับไม่ได้
         self.assertEqual(alternate("ab"), 2)  # "ab" มีความยาว 2
-
-
-if __name__ == "__main__":
-    unittest.main()

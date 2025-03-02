@@ -25,7 +25,3 @@ class TestFunnyString(unittest.TestCase):
             ),
             "Not Funny",
         )
-
-
-if __name__ == "__main__":
-    unittest.main()

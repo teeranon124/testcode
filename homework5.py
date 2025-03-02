@@ -32,7 +32,3 @@ class TestGridChallenge(unittest.TestCase):
         self.assertEqual(
             gridChallenge(["abcde", "fghij", "klmno", "pqrst", "uvwxy"]), "YES"
         )
-
-
-if __name__ == "__main__":
-    unittest.main()
